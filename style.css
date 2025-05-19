@@ -1,0 +1,230 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #0A192F;
+    /*line-height: 1.6;*/
+}
+
+header {
+    background-color: #b1dfba;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#1f1f1f;
+}
+.new a:hover{
+ 
+background-color:#3b7f57;
+letter-spacing :2px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure nav takes full width */
+}
+
+
+
+
+
+
+
+
+
+#hero {
+    background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*min-height: calc(100vh - 60px); /* Adjust for header height */
+}
+
+.hero-content {
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text {
+    margin-top: 1rem;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1f1f1f;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #b1dfba;
+    color: black;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #3b7f57;
+}
+
+#work, #about, #resume, #contact {
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#work h2, #about h2, #resume h2, #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+    border-bottom: 3px solid #b1dfba;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.project-card h3 {
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.project-card p {
+    padding: 0 1rem 1rem;
+    margin: 0;
+    color: #555;
+}
+
+.project-card a {
+    display: block;
+    padding: 0.75rem 1rem;
+    background-color: #b1dfba;
+    color: #007bff;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: #e2e6ea;
+}
+
+.about-content, .resume-content, .contact-content {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.contact-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.contact-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-content ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.resume-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.resume-link:hover {
+    background-color: #1e7e34;
+}
+
+footer {
+    background-color:  #b1dfba;
+    color: #1f1f1f;
+    text-align: center;
+    padding: 1.5rem;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+   
